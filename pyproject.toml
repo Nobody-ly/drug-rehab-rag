@@ -1,0 +1,20 @@
+[project]
+name = "rag-qa"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.4.1",
+    "fastapi>=0.128.0",
+    "jieba>=0.42.1",
+    "langchain>=1.2.7",
+    "langchain-community>=0.4.1",
+    "langchain-text-splitters>=1.1.0",
+    "modelscope>=1.34.0",
+    "pypdf>=6.6.0",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=5.2.0",
+    "uvicorn>=0.40.0",
+    "vllm>=0.14.1",
+]

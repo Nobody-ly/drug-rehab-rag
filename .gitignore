@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# 虚拟环境
+venv/
+.venv/
+uv.lock
+
+# 模型文件（太大）
+models/
+*.bin
+*.safetensors
+
+# 向量数据库
+chroma_db*/
+*.faiss
+
+# 数据文件（敏感）
+data/documents/*.pdf
+data/documents/*.txt
+
+# 测试结果（只保留latest）
+results/**/*.json
+!results/**/latest*.json
+
+# 日志
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
