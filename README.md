@@ -31,7 +31,7 @@
 ## 🏗️ 技术架构
 
 ### 系统流程
-
+```
 用户问题
    ↓
 Query预处理 & 意图识别
@@ -51,6 +51,7 @@ LLM生成 (Qwen2.5-7B + vLLM)
 └─ Max Tokens: 512
    ↓
 结构化答案
+```
 
 ### 技术栈
 
@@ -62,7 +63,7 @@ LLM生成 (Qwen2.5-7B + vLLM)
 | **Reranker** | BGE-Reranker-v2-m3 | - | 精排模型（可选） |
 | **向量数据库** | ChromaDB | 0.4.18 | 轻量级向量库 |
 | **框架** | LangChain | 0.1.0 | RAG编排框架 |
-| **硬件** | NVIDIA A100 | 40GB | GPU加速 |
+| **硬件** | NVIDIA A6000 | 40GB | GPU加速 |
 
 ---
 
@@ -163,7 +164,7 @@ LLM生成 (Qwen2.5-7B + vLLM)
 
 克隆项目
 ```
-git clone https://github.com/yourusername/drug-rehab-rag.git
+git clone https://github.com/Nobody-ly/drug-rehab-rag.git
 cd drug-rehab-rag
 ```
 安装依赖（推荐使用uv，速度快10倍）
@@ -398,12 +399,12 @@ pytest tests/ -v
 
 ## 👤 作者
 
-**xidian_ty**
+**Nobody-ly**
 
-- GitHub: [@xidian-ty](https://github.com/xidian-ty)
-- Email: your.email@example.com
+- GitHub: [@Nobody-ly](https://github.com/Nobody-ly)
+- Email: 2811925029@qq.com
 - 学校: 西安电子科技大学
-- 专业: 计算机科学与技术
+- 专业: 计算机技术
 
 ---
 
@@ -411,9 +412,8 @@ pytest tests/ -v
 
 如有问题或建议，欢迎通过以下方式联系：
 
-- 提交 [Issue](https://github.com/yourusername/drug-rehab-rag/issues)
-- 发送邮件至: your.email@example.com
-- 加入讨论群: [待补充]
+- 提交 [Issue](https://github.com/Nobody-ly/drug-rehab-rag/issues)
+- 发送邮件至: 2811925029@qq.com
 
 ---
 
