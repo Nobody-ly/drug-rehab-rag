@@ -425,7 +425,7 @@ pytest tests/ -v
 
 <div align="center">
 
-**Made with ❤️ by xidian_ty**
+**Made with ❤️ by Nobody-ly**
 
 [⬆ 回到顶部](#-戒毒知识库rag问答系统)
 
